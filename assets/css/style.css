@@ -9,8 +9,8 @@ html, body {
 	height: 100%;
 }
 
-#main .background {
-	position: fixed;
+#main {
+	background-image: url('assets/home/background-home-desktop.jpg');
 	height: 100%;
 	background-position: center;
 	background-repeat: 	no-repeat;
