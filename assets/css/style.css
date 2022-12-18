@@ -7,12 +7,98 @@
 
 html, body {
 	height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 
-#main {
-	background-image: url('assets/home/background-home-desktop.jpg');
+body {
+	background-image: url('../home/background-home-desktop.jpg');
 	height: 100%;
 	background-position: center;
 	background-repeat: 	no-repeat;
 	background-size: cover;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 138px;
+}
+
+.oval {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background-color: white;
+	margin: 65px 0px 0px 55px;
+}
+
+.path1, .path2, .path3, .path4 {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.path {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background-color: #0B0D17;
+	overflow: hidden;
+}
+
+.path1 {
+	transform: translate(-24px, -24px);
+}
+
+.path2 {
+	transform: translate(24px, -24px);
+}
+
+.path3 {
+    transform: translate(-24px, 24px);
+}
+
+.path4 {
+    transform: translate(24px, 24px);
+}
+
+.rectangle {
+	display: inline-block;
+	height: 1px;
+	width: 473px;
+	background-color: #979797;
+	margin: 89px 0px 0px 167px;
+}
+
+.nav {    
+	margin-top: 40px;
+	position: absolute;
+	display: inline-block;
+	list-style-type: none;
+	background: rgba(255, 255, 255, 0.04);
+	backdrop-filter: blur(40.7742px);
+	line-height: 96px;
+}
+
+.nav .nav-item {
+	display: inline;
+	padding-left: 48px;
+}
+
+.nav .nav-item .nav-link {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 19px;
+}
+
+.nav .nav-item:first-child {
+	padding-left: 123px;
+}
+
+.nav .nav-item:last-child {
+	padding-right: 165px;
 }
