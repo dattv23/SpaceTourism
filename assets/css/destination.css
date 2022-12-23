@@ -1,0 +1,109 @@
+body {
+	background-image: url('../destination/background-destination-desktop.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: 	no-repeat;
+	background-size: cover;
+}
+
+.title h3 {
+	margin-top: 44px;
+	margin-left: 166.5px;
+	text-align: left;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 4.725px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.tilte strong {
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	letter-spacing: 4.725px;
+	mix-blend-mode: normal;
+	opacity: 0.25;
+}
+
+.title-img {
+	margin-top: 50px;
+    margin-left: 200px;
+	width: 445px;
+	height: 445px;
+	background-image: url('../destination/image-moon.png');
+	background-position: center;
+	background-repeat: 	no-repeat;
+	background-size: cover;
+}
+
+#group-6 {
+	margin-top: 140px;
+	margin-left: 128px;
+}
+
+#group-4 {
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 2.7px;
+	color: #D0D6F9;
+}
+
+#group-4 .under {
+	padding-bottom: 2px;
+}
+
+#group-6 h2 {
+	margin-top: 37px;
+	font-family: 'Bellefair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100px;
+	line-height: 115px;
+	color: #FFFFFF;
+}
+
+#group-6 p {
+	width: 445px;
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #D0D6F9;
+}
+
+#group-6 hr {
+	margin-top: 38px;
+	margin-bottom: 12px;
+	border-bottom: 1px solid #383B4B;
+	width: 444px;
+}
+
+#group-5 p {
+	width: auto;
+}
+
+#group-5 {
+	width: 445px;
+	display: inline-grid;
+	grid-template-columns: auto auto;
+}
+
+#group-5 strong {
+	font-family: 'Bellefair';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
