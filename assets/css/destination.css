@@ -31,12 +31,27 @@ body {
 	opacity: 0.25;
 }
 
+.moon {
+	background-image: url('../destination/image-moon.png');
+}
+
+.mars {
+	background-image: url('../destination/image-mars.png');
+}
+
+.titan {
+	background-image: url('../destination/image-titan.png');
+}
+
+.europa {
+	background-image: url('../destination/image-europa.png');
+}
+
 .title-img {
 	margin-top: 50px;
     margin-left: 200px;
 	width: 445px;
 	height: 445px;
-	background-image: url('../destination/image-moon.png');
 	background-position: center;
 	background-repeat: 	no-repeat;
 	background-size: cover;
@@ -44,7 +59,7 @@ body {
 
 #group-6 {
 	margin-top: 140px;
-	margin-left: 128px;
+	margin-left: 118px;
 }
 
 #group-4 {
@@ -55,6 +70,12 @@ body {
 	line-height: 19px;
 	letter-spacing: 2.7px;
 	color: #D0D6F9;
+}
+
+#group-4 .nav .nav-item .nav-link:hover, .under:active {
+	color: #ddf;
+	border-bottom: 3px solid #999;
+	padding-bottom: 2px;
 }
 
 #group-4 .under {
@@ -90,6 +111,7 @@ body {
 
 #group-5 p {
 	width: auto;
+	text-transform: uppercase;
 }
 
 #group-5 {
