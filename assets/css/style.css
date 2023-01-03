@@ -128,15 +128,15 @@ main {
 
 #group {
 /*	flex: 50%;*/
+	margin-left: 168px;
 	color: #FFFFFF;
-	text-align: center;
+	text-align: left;
 }
 
 #content {
 	width: 450px;
-	margin-left: 165px;
+	margin-left: 94px;
 	margin-top: 180px;
-	text-align: left;
 }
 
 #content h3 {
@@ -193,3 +193,29 @@ main {
 	letter-spacing: 2px;
 	color: #0B0D17;
 }
+
+/* crew, destination, technology */
+.title h3 {
+	margin-top: 40px;
+	text-align: left;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 4.725px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.title strong {
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	letter-spacing: 4.725px;
+	mix-blend-mode: normal;
+	opacity: 0.25;
+}
+
